@@ -17,7 +17,7 @@ signed main () {
   std::cout<<max(a,b)<<std::endl;
 
   // nekolib:nyannyan_function(x)はxに1足した数を返す関数で以下のように定義されています。
-  // int nyannyan_function(int x){return x+1;}
+  // int nyannyan_function(int x){returnx+1;}
   std::cout<<nekolib::nyannyan_function(m)<<std::endl;
   return 0;
 }
