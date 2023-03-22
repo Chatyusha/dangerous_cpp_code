@@ -1,7 +1,7 @@
 # 問題
 
 以下のコード(main.cpp)からエラーまたは、想定外の動作をしそうな箇所を
-全て選べ。
+選択肢から全て選べ。
 ただし、`CC`は`g++`または`clang++`であり、
 実行ファイル(main)の作り方は以下のようであるとする。
 
@@ -44,3 +44,14 @@ signed main () {
   return 0;
 }
 ```
+
+## 選択肢
+
+1. 1行目 `#include <bits/stdc++.h>`
+2. 3行目 `#define int long long`、11行目 `int m = 2147483649;`、21行目 `std::cout<<nekolib::nyannyan_function(m)<<std::endl;`
+3. 4行目 `using namespace std;`、5行目 `using namespace nekolib;`、17行目 `std::cout<<max(a,b)<<std::endl;`
+4. 14行目 `std::cout<<V[6]<<std::endl;`
+
+## 解答
+
+ANSWER.mdに解答を載せてあります。
