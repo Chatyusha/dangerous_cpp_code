@@ -9,6 +9,15 @@
 CC -c nekolib.c
 CC main.c nekolib.o -o main
 ```
+また、`make`を使う場合は以下のコマンドで、実行ファイルを生成できます。
+
+```sh
+# g++
+make CC=g++
+
+# clang++
+make CC=clang++
+```
 
 ```c++:main.cpp
 #include <bits/stdc++.h>
